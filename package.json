@@ -1,0 +1,8 @@
+{
+  "name": "whocodebackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gabrielrmodesto/whocodebackend.git",
+  "author": "Gabriel Modesto <gabrielrmodesto5@gmail.com>",
+  "license": "MIT"
+}
