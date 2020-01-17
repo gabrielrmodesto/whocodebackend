@@ -5,7 +5,13 @@
   "repository": "https://github.com/gabrielrmodesto/whocodebackend.git",
   "author": "Gabriel Modesto <gabrielrmodesto5@gmail.com>",
   "license": "MIT",
+  "scripts": {
+	  "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
