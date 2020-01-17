@@ -1,4 +1,5 @@
 const moongose = require('mongoose');
+const PointSchema = require('./utils/PointSchema');
 
 const DevSchema = new moongose.Schema({
 	name: String,
@@ -6,6 +7,10 @@ const DevSchema = new moongose.Schema({
 	bio: String,
 	avatar_url: String,
 	techs: [String],
+	location: {
+		type: PointSchema,
+		index: '2dsphere'
+	}
 });
 
 module.exports = moongose.model('Dev', DevSchema);
