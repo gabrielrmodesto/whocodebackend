@@ -36,6 +36,6 @@ module.exports = {
 			})
 		}
 		
-		return response.json(dev);
+		response.json(dev);
 	}
 }
